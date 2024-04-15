@@ -52,7 +52,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 //В тестах используется для работы: с БД - Hibernate, с API - RestAssured.
-@DisplayName("Employee business tests:")
+@DisplayName("Employee contract test:")
 @ExtendWith({CompanyResolver.class,
         EmployeeResolver.class,
         CompanyServiceResolver.class,
